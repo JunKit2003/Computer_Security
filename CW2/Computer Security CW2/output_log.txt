@@ -1,0 +1,77 @@
+===== Coursework Run Log =====
+Generated on: Mon 24 Mar 2025 11:52:11 AM EDT
+
+---- Entering RSA ----
+
+>>> Compiling rsa_q1.c
+>>> Running rsa_q1
+---------------------------------
+Decryption key d: 47
+Ciphertext C: 4347
+---------------------------------
+
+>>> Compiling rsa_q2.c
+>>> Running rsa_q2
+---------------------------------
+Encryption key e: 4321
+Ciphertext C: 58684
+---------------------------------
+
+>>> Compiling rsa_q3.c
+>>> Running rsa_q3
+---------------------------------
+n (modulus)      : 2479
+phi(n)           : 2376
+Decryption key d : 2137
+Decrypted M      : 1234
+---------------------------------
+
+>>> Compiling rsa_q4.c
+>>> Running rsa_q4
+---------------------------------
+Verified Message from Signature: 1233
+---------------------------------
+---- Leaving RSA ----
+
+---- Entering Diffie-Hellman ----
+
+>>> Compiling dh_q1.c
+>>> Running dh_q1
+---------------------------------
+Alice's public key (y_a): 164
+Bob's public key (y_b): 405
+Shared secret key (K_ab): 476
+Verification (K_ab from other side): 476
+---------------------------------
+
+>>> Compiling dh_q2.c
+>>> Running dh_q2
+---------------------------------
+Alice's public key (y_a): 1143
+Bob's public key (y_b): 124
+Shared secret key (K_ab): 245
+Verification (K_ab from other side): 245
+---------------------------------
+---- Leaving Diffie-Hellman ----
+
+---- Entering El-Gamal ----
+
+>>> Compiling eg_q1.c
+>>> Running eg_q1
+---------------------------------
+Bob's public key (y_b): 405
+Ephemeral key (x_a): 333
+Ephemeral message key (K): 476
+Ciphertext (C1, C2): (164, 515)
+---------------------------------
+
+>>> Compiling eg_q2.c
+>>> Running eg_q2
+---------------------------------
+Recovered shared key (K): 4125
+Inverse of shared key (K^-1): 1758
+Decrypted Message (M): 4312
+---------------------------------
+---- Leaving El-Gamal ----
+
+===== All Tasks Completed =====

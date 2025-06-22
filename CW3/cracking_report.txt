@@ -1,0 +1,30 @@
+=== PASSWORD CRACKING REPORT ===
+
+Date Generated: 2025-04-17 23:35:13
+Target User: 123456
+Tool Used: Hashcat (hashcat-6.2.6)
+Attack Mode: Dictionary Attack (-a 0)
+Target Hash Type: bcrypt (-m 3200)
+Potfile Usage: Disabled (--potfile-disable)
+Compute Device: Auto-Selected 
+Wordlist Used: wordlist.txt (133.44 MB)
+
+== CRACKING RESULTS ==
+Target Hash Attempted: 1 (for user '123456')
+Successfully Cracked: 1
+Success Rate: 100.0%
+Total Time Elapsed: 0h 0m 11.16s
+Approximate Cracking Speed: 663 H/s
+Output File Generated: 'cracked_results.txt' (Exists)
+
+== CRACKED PASSWORD ==
+- Cracked Password for '123456': 123456
+
+== ANALYSIS OF PASSWORD STRENGTH ==
+The password ('123456') for user '123456' was found in the dictionary.
+This password is considered WEAK due to its presence in a common password list.
+It is highly vulnerable to dictionary attacks.
+
+== GENERAL PASSWORD POLICY RECOMMENDATIONS ==
+1.  **Enforce Complexity:** Minimum 12-15+ chars, mix of types.
+10. **Credential Monitoring:** Monitor for credential exposure.
